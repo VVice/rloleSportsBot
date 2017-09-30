@@ -12,5 +12,7 @@ A discord bot for r/LeagueOfLegends discord server.
 +cheer [Team] The bot will check if the users has a teamrole already, if that the case the bot will private message people saying Please remove your current existing teamrole. It also reacts with a X and a :envelope: to say the command didn't went through and he sent a direct message.  
  
 -cheer [Team] The bot will remove the player role in the command and react to it if it done. (blue check box)  
+
 =help The bot will private message the users with the avaible roles. With a command list and a special message which says That this bot exists only for Worlds 2017  
+
 =test Is a Discord Mod user only command. It only exist to check if the bot is working or not.
