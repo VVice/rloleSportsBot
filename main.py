@@ -33,7 +33,9 @@ async def on_message(message):
 			   '\nGAM, FB')
 		msg2 = 'Dont expect something special. This bot only exist for Worlds 2017'
 		msg3 = ('Use +cheer [Team] to get your favorite team role'
+				'\n'
 				'\nUse -cheer [Team] to remove your favorite team role'
+				'\n'
 				'\nYou can have only 1 favorite team role. So remove them first if you want to switch teams')
 		await client.send_message(message.author, msg)
 		await client.send_message(message.author, msg2)
