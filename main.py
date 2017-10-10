@@ -450,9 +450,4 @@ async def on_message(message):
 			await client.change_nickname(member, None)
 			await client.add_reaction(message, "\u2611")
 
-	if message.content.startswith('=wednesday'):
-		await client.send_message(message.channel, "It is Wednesday my dudes")
-		await client.send_message(message.channel, "https://www.youtube.com/watch?v=DREDJ4fkz-g")
-		await client.add_reaction(message, "\U0001F438")
-
 client.run('MzYzNDY5MDkxNjc3NDA1MTg2.DLFHtg.9UGE9s0u79ZhaUUclnYzZ_6DWYM')
