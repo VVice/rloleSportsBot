@@ -449,5 +449,3 @@ async def on_message(message):
 			await client.remove_roles(member, role)
 			await client.change_nickname(member, None)
 			await client.add_reaction(message, "\u2611")
-
-client.run('MzYzNDY5MDkxNjc3NDA1MTg2.DLFHtg.9UGE9s0u79ZhaUUclnYzZ_6DWYM')
